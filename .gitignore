@@ -46,8 +46,13 @@ desktop.ini
 .mcp.json
 .vscode/
 
-# TripoSR — local model (too large for GitHub; cloned separately)
-TripoSR/
+# TripoSR — exclude generated outputs and cache only
+TripoSR/output/
+TripoSR/__pycache__/
+TripoSR/tsr/__pycache__/
+TripoSR/tsr/models/__pycache__/
+TripoSR/tsr/models/tokenizers/__pycache__/
+TripoSR/tsr/models/transformer/__pycache__/
 
 # Vercel
 .vercel/
