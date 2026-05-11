@@ -1,0 +1,642 @@
+[
+  {
+    "model": "wardrobe.outfit",
+    "pk": 122,
+    "fields": {
+      "user": null,
+      "name": "Classic White Formal Shirt",
+      "wear_type": "upper",
+      "occasions": "formal,wedding,party",
+      "color": "white",
+      "style": "formal",
+      "image": "uploads/dummy_classic_white_formal_shirt.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:36.372Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 123,
+    "fields": {
+      "user": null,
+      "name": "Navy Blue Blazer",
+      "wear_type": "upper",
+      "occasions": "formal,wedding,party",
+      "color": "navy",
+      "style": "formal",
+      "image": "uploads/dummy_navy_blue_blazer.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:37.798Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 124,
+    "fields": {
+      "user": null,
+      "name": "Silk Sherwani Gold",
+      "wear_type": "upper",
+      "occasions": "wedding,festive",
+      "color": "gold",
+      "style": "traditional",
+      "image": "uploads/dummy_silk_sherwani_gold.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:38.931Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 125,
+    "fields": {
+      "user": null,
+      "name": "Embroidered Kurta Red",
+      "wear_type": "upper",
+      "occasions": "wedding,festive,party",
+      "color": "red",
+      "style": "traditional",
+      "image": "uploads/dummy_embroidered_kurta_red.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:40.056Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 126,
+    "fields": {
+      "user": null,
+      "name": "Floral Print Kurti",
+      "wear_type": "upper",
+      "occasions": "casual,festive,party",
+      "color": "floral",
+      "style": "casual",
+      "image": "uploads/dummy_floral_print_kurti.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:42.089Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 127,
+    "fields": {
+      "user": null,
+      "name": "Light Blue Polo Tee",
+      "wear_type": "upper",
+      "occasions": "casual,outdoor",
+      "color": "blue",
+      "style": "casual",
+      "image": "uploads/dummy_light_blue_polo_tee.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:43.416Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 128,
+    "fields": {
+      "user": null,
+      "name": "Olive Denim Jacket",
+      "wear_type": "upper",
+      "occasions": "casual,party,outdoor",
+      "color": "neutral",
+      "style": "casual",
+      "image": "uploads/dummy_olive_denim_jacket.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:44.679Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 129,
+    "fields": {
+      "user": null,
+      "name": "Maroon Nehru Jacket",
+      "wear_type": "upper",
+      "occasions": "wedding,festive,formal",
+      "color": "maroon",
+      "style": "traditional",
+      "image": "uploads/dummy_maroon_nehru_jacket.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:45.943Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 130,
+    "fields": {
+      "user": null,
+      "name": "Silk Blouse Peach",
+      "wear_type": "upper",
+      "occasions": "wedding,party,formal",
+      "color": "beige",
+      "style": "elegant",
+      "image": "uploads/dummy_silk_blouse_peach.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:47.315Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 131,
+    "fields": {
+      "user": null,
+      "name": "Sports Dry-Fit Jersey",
+      "wear_type": "upper",
+      "occasions": "sports,outdoor",
+      "color": "blue",
+      "style": "sports",
+      "image": "uploads/dummy_sports_dry-fit_jersey.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:48.587Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 132,
+    "fields": {
+      "user": null,
+      "name": "Grey Linen Shirt",
+      "wear_type": "upper",
+      "occasions": "casual,formal,outdoor",
+      "color": "grey",
+      "style": "casual",
+      "image": "uploads/dummy_grey_linen_shirt.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:49.838Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 133,
+    "fields": {
+      "user": null,
+      "name": "Pink Anarkali Top",
+      "wear_type": "upper",
+      "occasions": "festive,wedding,party",
+      "color": "pink",
+      "style": "traditional",
+      "image": "uploads/dummy_pink_anarkali_top.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:50.955Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 134,
+    "fields": {
+      "user": null,
+      "name": "Black Turtleneck",
+      "wear_type": "upper",
+      "occasions": "formal,party,casual",
+      "color": "black",
+      "style": "formal",
+      "image": "uploads/dummy_black_turtleneck.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:52.055Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 135,
+    "fields": {
+      "user": null,
+      "name": "Purple Bandhani Kurta",
+      "wear_type": "upper",
+      "occasions": "festive,wedding",
+      "color": "purple",
+      "style": "traditional",
+      "image": "uploads/dummy_purple_bandhani_kurta.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:53.161Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 136,
+    "fields": {
+      "user": null,
+      "name": "White Cotton Shirt Casual",
+      "wear_type": "upper",
+      "occasions": "casual,outdoor",
+      "color": "white",
+      "style": "casual",
+      "image": "uploads/dummy_white_cotton_shirt_casual.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:54.611Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 137,
+    "fields": {
+      "user": null,
+      "name": "Beige Linen Blazer",
+      "wear_type": "upper",
+      "occasions": "formal,casual",
+      "color": "beige",
+      "style": "formal",
+      "image": "uploads/dummy_beige_linen_blazer.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:56.086Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 138,
+    "fields": {
+      "user": null,
+      "name": "Green Embroidered Shirt",
+      "wear_type": "upper",
+      "occasions": "festive,casual",
+      "color": "green",
+      "style": "traditional",
+      "image": "uploads/dummy_green_embroidered_shirt.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:57.248Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 139,
+    "fields": {
+      "user": null,
+      "name": "Orange Bandhgala",
+      "wear_type": "upper",
+      "occasions": "wedding,festive",
+      "color": "orange",
+      "style": "traditional",
+      "image": "uploads/dummy_orange_bandhgala.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:58.220Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 140,
+    "fields": {
+      "user": null,
+      "name": "Striped Formal Shirt",
+      "wear_type": "upper",
+      "occasions": "formal,casual",
+      "color": "white",
+      "style": "formal",
+      "image": "uploads/dummy_striped_formal_shirt.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:00:59.281Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 141,
+    "fields": {
+      "user": null,
+      "name": "Navy Crewneck Sweater",
+      "wear_type": "upper",
+      "occasions": "casual,outdoor",
+      "color": "navy",
+      "style": "casual",
+      "image": "uploads/dummy_navy_crewneck_sweater.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:00.650Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 142,
+    "fields": {
+      "user": null,
+      "name": "Black Formal Trousers",
+      "wear_type": "lower",
+      "occasions": "formal,wedding,party",
+      "color": "black",
+      "style": "formal",
+      "image": "uploads/dummy_black_formal_trousers.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:01.745Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 143,
+    "fields": {
+      "user": null,
+      "name": "Beige Chinos",
+      "wear_type": "lower",
+      "occasions": "casual,formal,outdoor",
+      "color": "beige",
+      "style": "casual",
+      "image": "uploads/dummy_beige_chinos.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:02.908Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 144,
+    "fields": {
+      "user": null,
+      "name": "White Dhoti Pants",
+      "wear_type": "lower",
+      "occasions": "wedding,festive",
+      "color": "white",
+      "style": "traditional",
+      "image": "uploads/dummy_white_dhoti_pants.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:04.027Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 145,
+    "fields": {
+      "user": null,
+      "name": "Slim Fit Blue Jeans",
+      "wear_type": "lower",
+      "occasions": "casual,party,outdoor",
+      "color": "blue",
+      "style": "casual",
+      "image": "uploads/dummy_slim_fit_blue_jeans.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:04.461Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 146,
+    "fields": {
+      "user": null,
+      "name": "Lehenga Skirt Red",
+      "wear_type": "lower",
+      "occasions": "wedding,festive,party",
+      "color": "red",
+      "style": "traditional",
+      "image": "uploads/dummy_lehenga_skirt_red.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:04.916Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 147,
+    "fields": {
+      "user": null,
+      "name": "Grey Track Pants",
+      "wear_type": "lower",
+      "occasions": "sports,outdoor",
+      "color": "grey",
+      "style": "sports",
+      "image": "uploads/dummy_grey_track_pants.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:05.356Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 148,
+    "fields": {
+      "user": null,
+      "name": "Palazzo Pants Purple",
+      "wear_type": "lower",
+      "occasions": "casual,festive,party",
+      "color": "purple",
+      "style": "casual",
+      "image": "uploads/dummy_palazzo_pants_purple.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:05.782Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 149,
+    "fields": {
+      "user": null,
+      "name": "Formal Pencil Skirt",
+      "wear_type": "lower",
+      "occasions": "formal,wedding",
+      "color": "grey",
+      "style": "formal",
+      "image": "uploads/dummy_formal_pencil_skirt.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:06.204Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 150,
+    "fields": {
+      "user": null,
+      "name": "Khaki Cargo Shorts",
+      "wear_type": "lower",
+      "occasions": "casual,sports,outdoor",
+      "color": "neutral",
+      "style": "casual",
+      "image": "uploads/dummy_khaki_cargo_shorts.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:07.540Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 151,
+    "fields": {
+      "user": null,
+      "name": "Gharara Green",
+      "wear_type": "lower",
+      "occasions": "wedding,festive",
+      "color": "green",
+      "style": "traditional",
+      "image": "uploads/dummy_gharara_green.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:08.016Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 152,
+    "fields": {
+      "user": null,
+      "name": "Black Skinny Jeans",
+      "wear_type": "lower",
+      "occasions": "casual,party",
+      "color": "black",
+      "style": "casual",
+      "image": "uploads/dummy_black_skinny_jeans.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:08.441Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 153,
+    "fields": {
+      "user": null,
+      "name": "Navy Formal Trousers",
+      "wear_type": "lower",
+      "occasions": "formal,wedding,party",
+      "color": "navy",
+      "style": "formal",
+      "image": "uploads/dummy_navy_formal_trousers.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:09.056Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 154,
+    "fields": {
+      "user": null,
+      "name": "Maroon Churidar",
+      "wear_type": "lower",
+      "occasions": "wedding,festive,party",
+      "color": "maroon",
+      "style": "traditional",
+      "image": "uploads/dummy_maroon_churidar.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:09.529Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 155,
+    "fields": {
+      "user": null,
+      "name": "White Palazzo",
+      "wear_type": "lower",
+      "occasions": "casual,festive",
+      "color": "white",
+      "style": "casual",
+      "image": "uploads/dummy_white_palazzo.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:09.953Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 156,
+    "fields": {
+      "user": null,
+      "name": "Orange Lehenga Skirt",
+      "wear_type": "lower",
+      "occasions": "wedding,festive",
+      "color": "orange",
+      "style": "traditional",
+      "image": "uploads/dummy_orange_lehenga_skirt.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:10.401Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 157,
+    "fields": {
+      "user": null,
+      "name": "Sports Compression Tights",
+      "wear_type": "lower",
+      "occasions": "sports",
+      "color": "black",
+      "style": "sports",
+      "image": "uploads/dummy_sports_compression_tights.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:10.847Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 158,
+    "fields": {
+      "user": null,
+      "name": "Beige Linen Trousers",
+      "wear_type": "lower",
+      "occasions": "casual,formal",
+      "color": "beige",
+      "style": "casual",
+      "image": "uploads/dummy_beige_linen_trousers.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:11.293Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 159,
+    "fields": {
+      "user": null,
+      "name": "Gold Embroidered Skirt",
+      "wear_type": "lower",
+      "occasions": "wedding,festive,party",
+      "color": "gold",
+      "style": "traditional",
+      "image": "uploads/dummy_gold_embroidered_skirt.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:11.734Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 160,
+    "fields": {
+      "user": null,
+      "name": "Dark Grey Jeans",
+      "wear_type": "lower",
+      "occasions": "casual,party,outdoor",
+      "color": "grey",
+      "style": "casual",
+      "image": "uploads/dummy_dark_grey_jeans.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:12.506Z"
+    }
+  },
+  {
+    "model": "wardrobe.outfit",
+    "pk": 161,
+    "fields": {
+      "user": null,
+      "name": "Pink Flared Skirt",
+      "wear_type": "lower",
+      "occasions": "party,casual,festive",
+      "color": "pink",
+      "style": "elegant",
+      "image": "uploads/dummy_pink_flared_skirt.jpg",
+      "is_dummy": true,
+      "dominant_rgb": "",
+      "created_at": "2026-05-06T06:01:12.937Z"
+    }
+  }
+]

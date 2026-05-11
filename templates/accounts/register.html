@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% block title %}StyleSense — Create Account{% endblock %}
+{% block body_class %}auth-body{% endblock %}
+
+{% block content %}
+<div class="auth-wrap">
+  <div class="auth-card">
+
+    <div class="auth-logo">
+      <svg width="52" height="52" viewBox="0 0 52 52" fill="none">
+        <circle cx="26" cy="26" r="24" fill="#eef2ff" stroke="#7c9ef5" stroke-width="1.5"/>
+        <path d="M17 20 Q26 13 35 20 L33 37 Q26 42 19 37 Z" fill="#7c9ef5" opacity="0.55"/>
+        <path d="M20 20 Q26 15 32 20 L31 27 Q26 30 21 27 Z" fill="#4a6cf7" opacity="0.85"/>
+        <circle cx="26" cy="12" r="4" fill="#f5c5a0"/>
+      </svg>
+      <h1>StyleSense</h1>
+      <p>Create your account</p>
+    </div>
+
+    <div class="info-banner">
+      Your <strong>username is auto-generated</strong> (e.g. user14).
+      It will be shown after registration — please note it down.
+    </div>
+
+    {% if messages %}
+      {% for msg in messages %}
+        <div class="flash {% if 'created' in msg|lower or 'username' in msg|lower %}flash--success{% else %}flash--error{% endif %}">
+          {{ msg|safe }}
+        </div>
+      {% endfor %}
+    {% endif %}
+
+    {% if new_username %}
+      <div class="username-reveal">
+        <p style="font-size:.85rem;color:#4a5585;margin-bottom:6px;">Your username is:</p>
+        <span class="username-badge" id="usernameDisplay">{{ new_username }}</span>
+        <br>
+        <button class="btn-copy" id="copyBtn" onclick="copyUsername('{{ new_username }}')">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
+          Copy Username
+        </button>
+        <p style="font-size:.78rem;color:#9aa0bc;margin-top:8px;">⚠️ Write it down — you need it to log in!</p>
+      </div>
+      <a href="{% url 'login' %}" class="btn-primary full" style="display:flex;justify-content:center;margin-top:14px;">Go to Login →</a>
+    {% else %}
+      <form method="POST" action="{% url 'register' %}" class="auth-form">
+        {% csrf_token %}
+        <div class="field-group">
+          <label>Choose a Password</label>
+          <input type="password" name="password" placeholder="Min 4 characters" required minlength="4">
+        </div>
+        <div class="field-group">
+          <label>Confirm Password</label>
+          <input type="password" name="confirm" placeholder="Repeat password" required minlength="4">
+        </div>
+        <button type="submit" class="btn-primary full">Create Account</button>
+      </form>
+    {% endif %}
+
+    <p class="auth-footer">Already registered? <a href="{% url 'login' %}">Sign in</a></p>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function copyUsername(name) {
+  navigator.clipboard.writeText(name).then(() => {
+    const btn = document.getElementById('copyBtn');
+    btn.innerHTML = '✓ Copied!';
+    btn.style.background = '#d0f0e0';
+    btn.style.color = '#1a6040';
+    btn.style.borderColor = '#a8dfc0';
+    setTimeout(() => {
+      btn.innerHTML = '<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg> Copy Username';
+      btn.style = '';
+    }, 2500);
+  }).catch(() => {
+    alert('Username: ' + name + '\n\nPlease copy it manually.');
+  });
+}
+</script>
+{% endblock %}

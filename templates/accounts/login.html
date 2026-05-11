@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}StyleSense — Sign In{% endblock %}
+{% block body_class %}auth-body{% endblock %}
+
+{% block content %}
+<div class="auth-wrap">
+  <div class="auth-card">
+
+    <div class="auth-logo">
+      <svg width="52" height="52" viewBox="0 0 52 52" fill="none">
+        <circle cx="26" cy="26" r="24" fill="#eef2ff" stroke="#7c9ef5" stroke-width="1.5"/>
+        <path d="M17 20 Q26 13 35 20 L33 37 Q26 42 19 37 Z" fill="#7c9ef5" opacity="0.55"/>
+        <path d="M20 20 Q26 15 32 20 L31 27 Q26 30 21 27 Z" fill="#4a6cf7" opacity="0.85"/>
+        <circle cx="26" cy="12" r="4" fill="#f5c5a0"/>
+      </svg>
+      <h1>StyleSense</h1>
+      <p>Your AI outfit recommender</p>
+    </div>
+
+    {% if messages %}
+      {% for msg in messages %}
+        <div class="flash flash--error">{{ msg }}</div>
+      {% endfor %}
+    {% endif %}
+
+    <form method="POST" action="{% url 'login' %}" class="auth-form">
+      {% csrf_token %}
+      <div class="field-group">
+        <label>Username</label>
+        <input type="text" name="username" placeholder="e.g. user14" required autocomplete="username">
+      </div>
+      <div class="field-group">
+        <label>Password</label>
+        <input type="password" name="password" placeholder="Your password" required autocomplete="current-password">
+      </div>
+      <button type="submit" class="btn-primary full">Sign In</button>
+    </form>
+
+    <p class="auth-footer">New user? <a href="{% url 'register' %}">Create account</a></p>
+  </div>
+</div>
+{% endblock %}
