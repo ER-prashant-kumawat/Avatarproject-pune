@@ -10,6 +10,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'stylesense-django-secret-key-outfit-r
 DEBUG = not IS_VERCEL
 ALLOWED_HOSTS = ['*']
 
+# ── CSRF / HTTPS (required for Vercel) ───────────────────────────────────────
+CSRF_TRUSTED_ORIGINS = [
+    'https://avatarproject-pune.vercel.app',
+    'https://*.vercel.app',
+]
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
