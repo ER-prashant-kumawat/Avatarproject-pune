@@ -3,6 +3,4 @@ Pillow==12.2.0
 numpy==2.4.4
 scikit-learn==1.8.0
 requests==2.32.3
-rembg==2.0.75
-gradio-client==1.3.0
 whitenoise==6.7.0
